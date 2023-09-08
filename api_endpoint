@@ -11,8 +11,8 @@ def info_details():
     day = datetime.utcnow().strftime('%A')
     time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     track = request.args.get('track')
-    github_repo = "whiwr;pfeifw"
-    github_file_url = "Wahdkjefh;oejfkl.e,"
+    github_repo = "https://github.com/Waris2-tech/Zuri_internship"
+    github_file_url = "https://github.com/Waris2-tech/Zuri_internship/blob/main/api_endpoint"
 
     info = {
         "slack_name": slack_name,
